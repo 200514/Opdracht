@@ -1,0 +1,159 @@
+.row {
+  margin-left: 50px;
+  
+}
+
+.row__posters {
+  display: flex;
+  transition: transform 450ms;
+  margin-right: 10px;
+  padding: 10px;
+  /* overflow-y: hidden; */
+}
+/* .row::-webkit-scrollbar {
+  background-color: #141414;
+} */
+
+.image {
+  max-height: 160px;
+  transition: transform 450ms;
+  margin-right: 10px;
+  width: 300px;
+}
+.image:hover  {
+  position: relative;
+  transform: scale(1.18)
+}
+
+.controls{
+  display: none;
+  position: absolute;
+  width: 300px;
+  padding-left: 5px;
+  transition: transform 450ms;
+  margin-top:28px;
+  background-color: #161616;
+  box-shadow: 1px 1px 1px 1px #151515;
+}
+
+.controls:hover{
+  cursor: pointer;
+  display: block;
+  margin-top: 0px;
+ }
+ 
+ .imageLarge {
+  max-height: 250px;
+}
+
+.imageLarge:not(.no-hover):hover { 
+  transform: scale(1.19);
+}
+.image:hover ~ .controls {
+ transform: scale(1.19);
+ display: block;
+}
+.control {
+  width: 40px;
+  height: 40px;
+  margin-top: 40px;
+  margin-right: 5px;
+}
+.infos{
+  float: right;
+}
+.match{
+  float: left;
+  color: #46d369;
+  margin-top: 20px;
+}
+.year{
+  float: left;
+  margin: 20px;
+  color: white;
+}
+.age{
+  float: left;
+  width: 40px;
+  margin: 10px ;
+}
+.seasons{
+  color: white;
+  margin-top: 20px;
+  float: left;
+}
+.hd{
+  width: 30px;
+  text-align: center;
+  border: solid white 1px;
+  margin: 5px 1px 5px 1px;
+  color: white;
+  float: left;
+  margin-top: 25px;
+  margin-left: 10px;
+  font-size: 10px;
+}
+.hd2{
+  margin-bottom: 40px!important; 
+   margin-right: 400px!important; 
+}
+.genre{
+  color: white;
+  padding-bottom: 20px;
+  padding-top: 60px;
+}
+.moreLeft{
+  margin-left: 50px;
+}
+.genres{
+  float: left;
+  margin-top: 8px;
+  width: 180px;
+}
+.tekst{
+  width: 60%;
+  color: white;
+}
+h2 {
+  color: white;
+  margin-top: 50px;
+}
+.moreInfo {
+  display: none;
+  overflow-x: hidden;
+    overflow-y: auto;
+  right: 15vw;
+  top: 5vw;
+  position: fixed;
+  z-index: 1;
+  background-color: #161616;
+  margin-left: 22.5%;
+  position: fixed;
+  padding-right: 30px;
+  height: 1000px;
+}
+.imageClick{
+  width: 100%;
+  float: none;
+}
+button{
+  background-color: #161616;
+  border: none;
+  float: right;
+}
+button:hover{
+  cursor: pointer;
+}
+.right{
+  float: right;
+}
+.infoMovie{
+  color: transparent;
+  color: white;
+  margin-top: 20px;
+}
+p{
+  float: left;
+  color: #777;
+  margin-right: 3px;
+}
