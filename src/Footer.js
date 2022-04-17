@@ -41,7 +41,7 @@ function Navbar(){
                 <a class="text" href=""><li class="li">Contact Us</li></a>
             </ul> 
             <button id="button" onClick={myFunction}>Click me</button>
-            <div id="copyright">© 2022-2022 Netflix, Igo Ulenbelt</div><br></br><br></br>
+            <div id="copyright">©   2022 Netflix, Max van Gend</div><br></br><br></br>
         </footer>
     )
 }

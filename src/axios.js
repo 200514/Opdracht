@@ -4,4 +4,4 @@ const instance = axios.create({
 });
 export default instance;
 
-// axios maken met de baseurl van de API
+// axios maken met de API
